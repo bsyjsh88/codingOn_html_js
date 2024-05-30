@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>설문조사</title>
+</head>
+<body>
+    <h2>설문조사</h2>
+    <form action="loginProcess.jsp" method="post">
+        <p>
+            <label>이름</label>
+            <input type="text" name="id" autofocus required
+            placeholder="">
+
+        </p>
+        <p>
+            <label>이메일</label>
+            <input type="text" name="id" autofocus required
+            placeholder="love@example.com">
+
+        
+        <p>나이</p>
+        <label><input type="radio" name="age" value="10" checked>10대</label>
+        <label><input type="radio" name="age" value="20">20대</label>
+        <label><input type="radio" name="age" value="30">30대</label>
+        <label><input type="radio" name="age" value="40">40대</label>
+        <label><input type="radio" name="age" value="50">50대</label>
+        <label><input type="radio" name="age" value="60">60대 이상</label>
+        
+        <p>원하는 강의(복수응답가능합니다.)</p>
+        <label><input type="checkbox" name="hobby"  value="1">html</label>
+        <label><input type="checkbox" name="hobby"  value="2" >javascript</label>
+        <label><input type="checkbox" name="hobby"  value="3" >css</label>
+        
+        <p>
+            <textarea name="content" rows="10" cols="50" required
+            placeholder="하고 싶은 말을 써주세요:)"required></textarea>
+            <div>
+            
+                <input type="submit" value="제출">
+                <input type="reset" value="취소">
+            
+            </div>
+        </p>
+        
+        
+            
+        
+
+
+
+    </form>
+    
+</body>
+</html>
