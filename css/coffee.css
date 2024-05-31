@@ -1,0 +1,20 @@
+h2{
+    /* color: chartreuse; */
+    /* color: #ff0062; */
+    color: rgb(255,0,0);
+}
+#p1{
+    /* background-color: yellow; */
+    background-color: rgb(255,255,0);
+}
+#p2{
+    /* 줄 간격을 2배로 함 */
+    line-height: 2;
+    font-family: 바탕체;
+    /* background-color: darkslateblue; */
+}
+/* span태그의 class 선택 - 글자 굵게함 */
+.coffee{
+    font-weight: 900;
+    /* font-weight: bold; */
+}

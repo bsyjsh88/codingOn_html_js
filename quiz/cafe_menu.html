@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>메뉴판</title>
+    <style>
+        table{
+            width: 350px;
+            border: 2px solid gray;
+            border-collapse: collapse;
+        }
+        /* td{
+            border: 1px solid gray;
+        } */
+        /* , : 그룹 선택자 */
+        th, td{
+            border: 1px solid gray;
+            text-align: center;
+            
+        }
+        thead{
+            background-color: #eeeeee;
+            
+        }
+      
+    </style>
+</head>
+<body>
+    <h3 align="center">메뉴판</h3>
+    <table>
+        <colgroup>
+        <col style="background-color: bisque; width: 60px;">
+        <col style="width: 100px">
+        </colgroup>
+    <thead>
+        <tr>
+            <th align="center">구분</th>
+            <th>음료</th>
+            <th>가격</th>
+            <th>이미지</th>
+        </tr>
+    </thead>
+    <tbody align="center">
+        <tr>
+            <td rowspan="2">커피류</td>
+            <td>아메리카노</td>
+            <td>4200원</td>
+            <td><img src="am_sm.jpg" alt=""></td>
+            
+        </tr>
+        <tr>
+            <td>돌체라떼</td>
+            <td>4800원</td>
+            <td><img src="dc_sm.jpg" alt=""></td>
+        </tr>
+
+        <tr>
+        <td rowspan="2">주스류</td>
+        <td>딸기주스</td>
+        <td>5000원</td>
+        <td><img src="berry_sm.jpg" alt=""></td>
+        
+        </tr>
+        <tr>
+        <td>망고주스</td>
+        <td>5000원</td>
+        <td><img src="mg_sm.jpg" alt=""></td>
+        </tr>
+        
+    </tbody>
+
+
+
+    </table>
+    
+</body>
+</html>
