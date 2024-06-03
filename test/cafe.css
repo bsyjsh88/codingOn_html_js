@@ -1,0 +1,29 @@
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    
+}
+th,td{
+    border: 1px solid black;
+    text-align: center;
+    width: 140px;
+    
+}
+td{
+    height: 120px;
+}
+thead{
+    background-color: beige;
+}
+tbody{
+    background-color: pink;
+}
+body{
+    background-color: brown;
+}
+caption{
+    font-size: 30px ;
+    color: aliceblue;
+    line-height: 2;
+}

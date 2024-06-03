@@ -1,0 +1,38 @@
+h2{
+    background-color: black;
+    color: white;
+    display: inline-block;
+    margin: 10px;
+    
+}
+div{
+    height: 100px;
+}
+#g1{
+    width: 100px;  
+    background-color: red;
+}
+#g2{
+    width: 200px;  
+    background-color: orange;
+}
+#g3{
+    width: 300px;  
+    background-color: yellow;
+}
+#g4{
+    width: 400px;  
+    background-color: green;
+}
+#g5{
+    width: 500px;  
+    background-color: blue;
+}
+#g6{
+    width: 600px;  
+    background-color: navy;
+}
+#g7{
+    width: 700px; 
+    background-color: purple;
+}
