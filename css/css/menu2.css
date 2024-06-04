@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+*{margin: 0; padding: 0;}
+#container{
+    width: 1000px;
+    margin:  0 auto;
+}
+nav{
+    height: 80px;
+    background-color: rgb(164, 228, 62);
+    border: 1px solid black;
+}
+ul{padding-left: 400px;}
+ul li{
+    line-height: 80px;
+    list-style: none;
+    float: left;
+}
+ul li a{
+    color: #000;
+    text-decoration: none;
+    display:block;
+    padding: 0px 30px;
+}
+ul li a:hover{
+    background-color: pink;
+    color: white;
+}
+section{
+    margin: 20px;
+}

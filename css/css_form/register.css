@@ -1,0 +1,34 @@
+ul li{
+    list-style: none;
+    float: left;
+    /* margin: 20px; */
+}
+ul li input{
+    width: 140; height: 50;
+}
+
+form{
+    width: 500px;
+    margin: 0 auto;
+}
+button{
+    padding: 5px 10px;
+    cursor: pointer; /* 마우스포인터 -  */
+}
+fieldset{
+    margin-bottom: 16px;
+    
+    
+}
+#container{
+    width: 1000px;
+    margin: 0 auto;
+    
+}
+select{
+    width: 130px; height: 25px;
+    
+}
+#classId{
+    margin-left: 40px;
+}
