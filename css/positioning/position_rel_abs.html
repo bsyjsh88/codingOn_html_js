@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            border: 1px solid #000;
+            box-sizing: border-box;
+        }
+        #wrap{
+            width: 200px;
+            height: 200px;
+            border: 1px solid #222;
+            background-color: aquamarine;
+            /* 기준이 부모 요소가 됨 */
+            position: relative;
+            margin: 100px 50px;
+        }
+        #wrap div{
+            width: 50px;
+            height: 50px;
+        }
+        #box1{
+            position: absolute;
+            top: 75px;
+            left: 75px;
+            background-color: brown;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+        }
+        #box2{
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            background-color: pink;
+        }
+        #box3{
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            background-color: rgb(191, 226, 14);
+        }
+        #box4{
+            position: absolute;
+            /* top: 0px; */
+            bottom: 0px;
+            right: 0px;
+            background-color: rgb(1, 54, 213);
+        }
+        #box5{
+            position: absolute;
+            /* top: 0px; */
+            bottom: 0;
+            left: 0px;
+            background-color: rgb(105, 114, 63);
+        }
+
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <div id="box1">Hi</div>
+        <div id="box2"></div>
+        <div id="box3"></div>
+        <div id="box4"></div>
+        <div id="box5"></div>
+    </div>
+</body>
+</html>
