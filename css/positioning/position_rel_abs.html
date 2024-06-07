@@ -43,11 +43,13 @@
             background-color: rgb(191, 226, 14);
         }
         #box4{
-            position: absolute;
-            /* top: 0px; */
-            bottom: 0px;
-            right: 0px;
-            background-color: rgb(1, 54, 213);
+            /* position: absolute, fixed
+               브라우저 창 기준 */
+            position: fixed;
+            top: 20px;
+            /* bottom: 0px; */
+            right: 30px;
+            background-color: rgb(63, 206, 201);
         }
         #box5{
             position: absolute;
@@ -60,11 +62,12 @@
     </style>
 </head>
 <body>
+    <!-- 스타일 우선 순위 : 인라인 > 내부 > 외부스타일 -->
     <div id="wrap">
         <div id="box1">Hi</div>
         <div id="box2"></div>
         <div id="box3"></div>
-        <div id="box4"></div>
+        <div id="box4" style="background-color: red;"></div>
         <div id="box5"></div>
     </div>
 </body>
