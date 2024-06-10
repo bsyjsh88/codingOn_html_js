@@ -1,0 +1,27 @@
+head body 기본구조
+h1,p,,br 글자, 문단 태그
+img, audio, vedio 멀티미디어
+form, input 폼태그
+table 테이블 태그
+
+<table>
+   <tr>
+	<td>주승현</td>
+
+   <tr>
+</table>
+
+<colgroup>
+    <col>
+    </col>
+
+</colgroup>
+
+table row: 행
+column: 열
+table data: td
+표제목 : caption
+
+셀합치기:
+-열합치기 속성: colspan
+-행합치기 속성: rowspan

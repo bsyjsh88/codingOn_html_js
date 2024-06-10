@@ -1,0 +1,24 @@
+CSS
+색상을 표기하는 3가지 방법
+1. 기본색상 - 이름(216가지)
+2. 16진수 - #ff0000
+3. RGB 방식 - rgb(255, 0 , 0)
+
+
+스타일 종류
+1.내부 스타일:<style>~</style>
+2.외부 스타일:css파일(.css) link태그: css와 연결
+
+스타일을 적용하는 방법 (선택)
+1.태그
+2.id 선택자
+3.class 선택자
+
+글자색: color: red;
+배경색: background-color: rgb(255, 0, 0)
+글자크기:font-size: 16px
+글꼴(글자모양): font-family: 바탕체
+<div></div>
+<span></span> : 한줄에서 특정부분
+font-weight: bold 글자 굵게
+line-height: 2; : 줄 간격을 2배로함

@@ -1,0 +1,35 @@
+상단메뉴(전역메뉴) - navbar
+<nav></nav>
+
+display: inline-block
+float: left, right
+
+display: flex
+a:hover
+
+
+배치
+-display(일률적)
+-float(약간의 개별성) : 부동
+-position:(완전 독립적 배치)
+
+word-wrap 속성
+영어 단어를 줄바꿈(알파벳 철자, 단어)
+word-wrap: break-word;
+word-break: break-all
+
+
+1.전체 선택자
+2.태그 선택자
+3.id 선택자
+4.class 선택자
+5.연결 선택자(후손, 자식)
+#container h1
+#container > h1
+
+폼(form)
+<input tyte='date'> 날짜와 시간
+생일-
+미팅시간
+수량-개수
+<input type='number'>

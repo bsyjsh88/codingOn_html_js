@@ -1,0 +1,25 @@
+검색 폼 - search
+로그인 폼- login
+회원가입 폼-sign up
+게시판 글쓰기 폼-white
+
+이미지 파일 확장자
+.jpg - 사진 촬영, 색상이 많음
+.gif - 256가지, 움직이는 이미지, 캐릭터
+.png - 인터넷용 , 용량이 작다
+.webp - 인터넷용 파일
+
+줄바꿈태그 -br
+
+픽사베이(pixabay) - 무료이미지, 음악, 영상
+
+
+shop 프로젝트
+-index 페이지 : index.html
+-상품소개(수박) : product.html
+-게시판 : board.html
+
+구역 분리
+<div>
+
+</div>

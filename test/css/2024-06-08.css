@@ -8,6 +8,9 @@ a{
     text-decoration: none;
     color: black;
 }
+ul li{
+    list-style: none;
+}
 #container{
     width: 1000px;
     height: 1000px;
@@ -111,4 +114,15 @@ header #menu li:hover{
 #content .box9{
     top: 598px;
     right: 0px;
+}
+#content form{
+    width: 450px;
+    margin: 0 auto;
+    border: 2px solid #ccc;
+}
+#content form ul{
+    padding: 30px 50px;
+}
+#content form ul li{
+    margin: 15px;
 }

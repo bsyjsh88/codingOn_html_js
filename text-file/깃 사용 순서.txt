@@ -1,0 +1,35 @@
+깃 사용 순서
+1.깃허브 계정- 서버 호스팅 공간
+2.깃 소프트웨어 설치(내컴퓨터)
+
+내컴퓨터(로컬-local)<-> 원격 저장소(깃허브)
+명령프롬포트(cmd)
+터미널(terminal)
+
+
+cmd 명령어 : 
+cd - 디렉토리 변경,이동
+cd.. - 상위 폴더 이동
+dir - 폴더,파일 목록보기
+c:/ - (c의 루트)
+
+git 명령어 : 
+깃 환경설정
+깃 계정 설정
+git config user.name
+git config --global user.name "내 아이디"
+git config --global user.email "내 이메일"
+
+-해당 폴더 이동(깃 저장소에 처음 업로드)
+git init : 깃 생성
+git add : 깃에 추가
+git commit -m "test" (m: 메시지)  : 커밋 실행
+git remote add origin 리포지터리 주소 
+git push -u origin master
+git status: 상태보기
+git clone : 깃허브 리포지터리 계정주소: 자료 다운로드 받음
+
+-깃 저장소 두번쨰부터
+git add . : 깃에 추가
+git commit -m "test" : 커밋실행
+git push : 저장소에 업로드

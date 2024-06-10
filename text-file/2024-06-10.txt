@@ -1,0 +1,18 @@
+닷홈 - dathome
+www.dathome.co.kr
+내 아이디.dathome.co.kr
+1. 회원 가입
+2. 무료호스팅 서비스 신청
+
+bsyjsh8.dothome.co.kr
+bsyjsh8
+j3390077!
+
+html - 뷰포트
+responsive_web
+<meta name="viewport">
+css - 미디어 쿼리
+@media screen and(min-width: 400px){
+    body{background: green}
+}
+400px(세로), 가로(760px)

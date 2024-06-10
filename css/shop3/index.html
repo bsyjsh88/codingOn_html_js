@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>shopOn게시판</title>
+    <title>코딩온 쇼핑몰</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -23,29 +23,20 @@
                 </ul>
             </nav>           
         </header>
-        <div id="main">
+        <main id="main">
             <section id="content">
-                <div>
-                    <h1>로그인</h1>
-                    <form action="/login" method="post">
-                        <ul>
-                            <li>
-                                <label for="userid">아이디</label>
-                                <input type="text" name="userid" id="id" required autofocus>
-                            </li>
-                            <li>
-                                <label for="password">비밀번호</label>
-                                <input type="password" name="password" id="password" required autofocus>
-                            </li>
-                            <li>
-                                <input type="submit" value="로그인">
-                                <input type="reset" value="취소">
-                            </li>
-                        </ul>
-                    </form>
-                </div> 
+                <h2>codinOn 쇼핑몰에 오신 것을 환영합니다.</h2>
+                <!-- 절대 경로(맨 위 상위경로부터 시작) -->
+                <!-- <img src="/shop/images/store.png" alt="상점 이미지"
+                    width = "500" height="500"> -->
+                    
+                <!-- 상대 경로(자기 기준으로 배치) 점(.)이 한개 이면 같은 계층 점이 두개 이면 상위 폴더-->
+                 <div class="main_pic">
+                <img src="./images/store.png" alt="상점 이미지"
+                    width = "500" height="500">
+                </div>
             </section>
-        </div>
+        </main>
         <footer>
             <ul id="footer_menu">
                 <li><a href="#">쇼핑몰 소개</a></li>
@@ -55,5 +46,6 @@
             </ul>   
         </footer>
     </div>
+    
 </body>
 </html>
