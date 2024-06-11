@@ -1,0 +1,13 @@
+display: none/inline/inline-block
+float: left/right
+position: relative/absolute
+
+flex 라이브러리
+display:flex;
+flex-direction: row/column수평방향, 수직방향
+align-items: 수평정렬, 수직정렬
+flex-wrap: wrap(행바꿈)
+
+아이콘글자
+메뉴바
+fontawesome
