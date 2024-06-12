@@ -1,0 +1,25 @@
+웹언어(프로그래밍)
+html - 마크업언어(표시)
+css - 스타일 표시 <style>~</style> a.css
+javascript - <script>~</script>
+
+실직적 프로그래밍 언어
+c , java, python, javascript
+알고르즘(선택, 반복, 조건 처리)
+
+수업일정
+1. 자료형과 변수
+2. 연산자(산술, 비교, 논리)
+3. 제어문(조건문, 반복문)
+4. 함수(모듈)
+5. 객체(배열 포함)
+6. DOM(BOM) - 웹에 적용
+7. JQuery - 라이브러리(javascript를 웹에 최적화)
+
+내장함수(객체.함수)
+alert
+window.alert()
+document.write()
+consol.log()
+
+if - else
