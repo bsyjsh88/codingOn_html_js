@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>배열 실습</title>
+</head>
+<body>
+    <script>
+        let color = ["black", "gray", "red", "blue", "pink", "green", "weite"];
+        // 1.
+        console.log(color[2]);
+        color.push("purple");
+        // 2.
+        console.log(color);
+        console.log(color[0]);
+        // 3.
+        console.log(color.indexOf("black"));
+        console.log(color.pop());
+
+        // 4.
+        let color2 = color.reverse();
+        console.log(color2);
+        console.log(color);
+        // 5.
+        console.log(color2.pop());
+        
+        // indexOf() - 앞에서 찾음
+        // lastIndexOf() - 뒤에서 찾음
+        let str="Hello world, welcome world";
+
+        /*console.log(str.indexOf("world"));
+        console.log(str.indexOf("asia"));
+        console.log(str.lastIndexOf("world"));*/
+    </script>
+</body>
+</html>

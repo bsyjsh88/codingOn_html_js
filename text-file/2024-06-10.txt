@@ -16,3 +16,4 @@ css - 미디어 쿼리
     body{background: green}
 }
 400px(세로), 가로(760px)
+
