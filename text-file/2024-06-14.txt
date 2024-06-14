@@ -1,0 +1,29 @@
+초기값
+switch(값){
+    case 값:
+    실행문
+    break;
+    case 값
+    실행문
+    break;
+    default:
+    실행문
+    break;
+    } 
+
+변수의 유효범위(scope)
+지역변수(local variable) - 매개변수
+전역변수(global variable) - 전역변수
+
+태그에서 함수 사용하는 방법
+onclick 속성
+button
+getElementByld("wrap") 함수 사용법
+
+배열
+구조 지향 언어 - C언어(함수 모듈)
+객체 지향 언어 - 파이썬, 자바스크립트, 자바
+
+내장 객체
+Date 객체
+let now = new Date();
