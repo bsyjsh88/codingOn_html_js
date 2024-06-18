@@ -1,0 +1,20 @@
+변수 - var, let
+상수 - 변하지 않는 진리, 공식
+const
+let age =20;
+age =30; //변할 수 있는 값
+const month = 12;
+month = 13; //에러가 난다.
+객체 사용
+document.write()
+let date = new Date();
+Math.round()
+선택자 id가 있는 곳에 출력
+<DOM>
+document.getElementById(”id 선택자”).innerHTML
+document.querySelector(”.box”)
+id, class, 태그 선택자 모두 가능
+document.querySelectorAll(”.box”)
+id, class, 태그 선택자 모두 가능
+<img src>
+setAttribute

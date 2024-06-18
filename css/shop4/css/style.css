@@ -45,6 +45,9 @@ header .navbar_toggleBtn{
     /* 1em = 16px */
     font-size: 1.5em;
 }
+header .navbar_toggleBtn .active{
+    display: flex;
+}
 #container main{
     width: 90%;
     margin: 20px auto;
@@ -161,6 +164,10 @@ footer #footer_menu li:nth-child(4){
         display: flex;
         flex-direction: row;
         align-items: center;
+    }
+
+    header .navbar_toggleBtn{
+        display: none;
     }
     /* ul의 크기가 필요 */
     header .navbar_menu{
