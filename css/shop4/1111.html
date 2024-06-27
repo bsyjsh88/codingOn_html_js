@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="restcss/dinerList_style.css">
+    <script src="https://kit.fontawesome.com/cf4de08867.js" crossorigin="anonymous"></script>
+    <title>주문내역 페이지</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .wrapper>h2{
+            text-align: center;
+            font-size: 40px;
+            margin: 20px auto ;
+        }
+        
+        .wrapper>i{
+            display: inline-block;
+            /* float: right; */
+            margin-top: 20px;
+            margin: 20px;
+        }
+        .wrapper>p{
+            display: block;
+            margin: 32px 0;
+            font-size: 16px;
+            line-height: 140%;
+            color: #9b9999;
+            text-align: center;
+        }
+
+        .content{
+            width: 1010px;
+            height: 650px;
+            /* border: 2px solid black; */
+            margin: 0px auto 20px;
+        }
+        .total_menu ul li{
+            display: inline-block;
+            width: 30%;
+            height: 40px;
+            margin: 2px;
+            font-size: large;
+            /* border: 2px solid #000000; */
+            font-weight: bolder;
+            margin: 20px 0;
+        }
+
+        
+        .register {
+            /* border: 1px solid #333; */
+            width: 100%;
+            border-collapse: collapse;
+            height: 600px;
+        }
+        .tableMenu tr th{
+            border: 1px solid #444;
+            border-collapse: collapse;
+            border-right: none;
+            border-left: none;
+            padding: 30px;
+            width: 25%;
+            background-color: #eee;
+        }
+
+        .tablebb tr td{
+            border: 1px solid #444;
+            border-right: none;
+            border-left: none;
+            text-align: center;
+        }
+
+        .section{
+            height: 100px;
+        }
+
+        .tableMenu tr :first-child,
+        .tablebb tr > :first-child{
+            border-right: 1px solid #444;
+        }
+        .name{
+            display: flex;
+            line-height: 100px;
+            padding-left: 20px;
+        }
+        .name.name2{
+            font-size: 1px;
+        }
+
+        .section img{
+            width: 100px;
+            height: 100px;
+            display: flex;
+            float: left;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <div id="nav_logo">
+                <a href="#">배달의 민족</a>
+            </div>
+            <nav id="nav_menu">
+                <ul>
+                    <li><a href="#">홈</a></li>
+                    <li><a href="#">가게배달</a></li>
+                    <li><a href="#">주문내역</a></li>
+                    <li><a href="#">my 배민</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- 주문내역 페이지 -->
+         <main>
+            <div class="wrapper">
+                <!-- <img class="title_logo"src="/images/logoBlack.png" alt="로고"> -->
+                <h2>나의 주문내역</h2>
+                <!-- <i id="reload" class="fa-solid fa-arrows-rotate"></i> -->
+                <p>나의 주문내역을 확인하실 수 있습니다.<br>
+                    주문내역은 1달 후 조회 불가합니다.</p>
+                <div class="content">
+                    <div class="total_menu">
+                        <ul>
+                            <li>
+                                <p class="upTitle">
+                                    총 주문내역 :
+                                </p>
+                            </li>
+                            <li>
+                                <p class="upTitle">
+                                    총 결재금액 :
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <table class="register">
+                        <thead class="tableMenu">
+                            <tr>
+                                <th>주문제품</th> 
+                                <th>결제금액</th>
+                                <th>주문매장</th>
+                                <th>주문일자</th>
+                            </tr>
+                        </thead>
+                        <tbody class="tablebb">
+                            <tr>
+                                <td>
+                                    <div class="section">
+                                        <img src="images/subid3.png" alt="">
+                                        <p class="name">귀한족발</p>
+                                    </div>
+                                </td>
+                                <td>45,000원</td>
+                                <td>귀한족발 <br>홍대서교점</td>
+                                <td>2024-06-25</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="section">
+                                        <img src="images/yoajung.jpg" alt="">
+                                        <p class="name" class="name2">요아정</p>
+                                    </div>
+                                </td>
+                                <td>500</td>
+                                <td>어딘가</td>
+                                <td>2024-06-25</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="section">
+                                        <img src="images/subid3.png" alt="">
+                                        <p class="name">홍길동 전문점</p>
+                                    </div>
+                                </td>
+                                <td>500</td>
+                                <td>어딘가</td>
+                                <td>2024-06-25</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="section">
+                                        <img src="images/subid3.png" alt="">
+                                        <p class="name">홍길동 전문점</p>
+                                    </div>
+                                </td>
+                                <td>500</td>
+                                <td>어딘가</td>
+                                <td>2024-06-25</td>
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+         </main>
+</body>
+</html>
